@@ -25,7 +25,3 @@
   Для проектов:
   - trivy
   ```
----
-
-- ansible: [release](https://docs.ansible.com/ansible/latest/roadmap/COLLECTIONS_7.html)
-- ansible-lint: [releases](https://github.com/ansible/ansible-lint/releases)
