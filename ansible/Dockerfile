@@ -22,13 +22,15 @@ RUN apk add --update --virtual \
        libffi-dev \
        openssl-dev \
        build-base \
-    && pip3 install --break-system-packages \
+    && pip3 install --no-cache-dir --break-system-packages \
        ansible==${ANSIBLE_VERSION} \
        ansible-lint==${ANSIBLE_LINT_VERSION} \
        boto3 botocore \
     && apk del \
        .build-deps \
-    && rm -rf /var/cache/apk/*
+    && rm -rf /var/cache/apk/* \
+    && find /usr/lib/ -name '__pycache__' -print0 | xargs -0 -n1 rm -rf \
+    && find /usr/lib/ -name '*.pyc' -print0 | xargs -0 -n1 rm -rf
 
 RUN mkdir -p /etc/ansible \
     && echo 'localhost' > /etc/ansible/hosts \
