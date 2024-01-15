@@ -25,3 +25,9 @@
   Для проектов:
   - trivy
   ```
+
+- ruby
+  ```
+  Релизы:
+  - 3.3.0-rc1-slim-bullseye - дефолтный образ для executioner с типом docker
+  ```
