@@ -24,8 +24,8 @@
   Релизы:
   - v1.8.2 - дефолтный образ с docker:dind и kubectl
   - v2.0.0:
-    - Обновлёны: базовый образ docker:24.0.7-dind-alpine3.19, kubectl v1.21.2
-    - Добавлены пакеты: curl, wget, bash
+    - Обновлёны: базовый образ docker:20.10.24-dind-alpine3.17, kubectl v1.21.2
+    - Добавлены пакеты: curl, wget, bash, ca-certificates
   ```
   ```
   Для проектов:
