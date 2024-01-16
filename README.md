@@ -15,7 +15,7 @@
   - users
   - balancers
   - drivers
-  - postfix (v7.0.1)
+  - postfix
   - clusters
   ```
 
@@ -35,5 +35,5 @@
 - ruby
   ```
   Релизы:
-  - 3.3.0-rc1-slim-bullseye - дефолтный образ для executioner с типом docker
+  - 3.3.0-rc1-slim-bullseye - дефолтный образ для docker executioner
   ```
