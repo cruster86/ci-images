@@ -9,6 +9,7 @@
     - Преднастроен ansible-vault и ключ шифрования /ansible/vaultpass
   - v7.1.0:
     - Обновлены: alpine3.19, ansible 7.1.0 (ansible-core 2.14.13), ansible-lint 6.22.1
+    - Добавлены: boto3, botocore
   ```
   ```
   Для проектов:
