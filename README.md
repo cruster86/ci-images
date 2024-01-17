@@ -17,7 +17,7 @@
   - balancers
   - drivers
   - postfix
-  - clusters
+  - clusters (checklist)
   ```
 
 - dind-kubectl
