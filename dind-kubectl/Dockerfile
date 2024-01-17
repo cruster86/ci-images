@@ -1,4 +1,4 @@
-FROM docker:20.10.24-dind-alpine3.17
+FROM docker:24.0.7-dind-alpine3.19
 
 ARG KUBECTL_VERSION
 
