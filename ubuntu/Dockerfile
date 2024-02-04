@@ -5,7 +5,7 @@ ENV DEBIAN_FRONTEND="noninteractive"
 ARG CURL_VERSION
 
 RUN apt update --fix-missing &&\
-    apt install -y --no-install-recommends --no-install-suggests \
+    apt install -y \
         wget binutils make build-essential libssl-dev &&\
     apt autoremove -y &&\
     apt autoclean -y &&\
