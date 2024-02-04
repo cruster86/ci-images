@@ -38,3 +38,14 @@
   Релизы:
   - 3.3.0-rc1-slim-bullseye - дефолтный образ для docker executioner
   ```
+
+- ubuntu
+  ```
+  Релизы:
+  - 23.10-curl - дефолтный образ с curl версии 7.64.1 для загрузки deb-пакетов в Gitlab debian registry
+
+  ```
+  ```
+  Для проектов:
+  - cyrus-satrap-antipatros
+  ```
